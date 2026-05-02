@@ -1,0 +1,42 @@
+.notification-card {
+  border: 1px solid #d0d0d0;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.notification-card.unread {
+  border-left: 4px solid #0057ff;
+}
+
+.notification-card.read {
+  opacity: 0.8;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}
+
+.timestamp {
+  font-size: 12px;
+  color: #555555;
+}
+
+.card-body .message {
+  margin: 0 0 16px 0;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card-footer {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.mark-read-button {
+  background-color: transparent;
+  color: #0057ff;
+  border: 1px solid #0057ff;
+}

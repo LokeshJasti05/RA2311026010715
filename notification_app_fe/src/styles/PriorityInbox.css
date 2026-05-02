@@ -1,0 +1,30 @@
+.priority-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.priority-item {
+  display: flex;
+  gap: 16px;
+  border: 1px solid #d0d0d0;
+  padding: 16px;
+  background-color: #ffffff;
+}
+
+.rank-badge {
+  font-size: 18px;
+  font-weight: bold;
+  color: #0057ff;
+}
+
+.priority-content {
+  flex: 1;
+}
+
+.priority-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 8px;
+}

@@ -1,0 +1,19 @@
+.notifications-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 24px;
+}
+
+.pagination-controls {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 16px;
+  border-top: 1px solid #d0d0d0;
+}
+
+.page-indicator {
+  font-size: 14px;
+  color: #111111;
+}
